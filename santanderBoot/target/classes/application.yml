@@ -2,3 +2,16 @@ server:
   port: 8080
   servelet:
     context-path: /bootcamp
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 653503
+  jpa:
+    show-sql: true
+    database-plataform: org.hirbenate.dialect.PostgresSQLDialect
+    generate-ddl: false
+    hibenate:
+      ddl-auto: none
