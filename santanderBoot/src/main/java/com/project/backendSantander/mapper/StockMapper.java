@@ -1,7 +1,7 @@
-package com.project.santanderBoot.mapper;
+package com.project.backendSantander.mapper;
 
-import com.project.santanderBoot.model.Stock;
-import com.project.santanderBoot.model.dto.StockDTO;
+import com.project.backendSantander.model.Stock;
+import com.project.backendSantander.model.dto.StockDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

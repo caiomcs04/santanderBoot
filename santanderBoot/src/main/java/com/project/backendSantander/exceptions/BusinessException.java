@@ -1,4 +1,4 @@
-package com.project.santanderBoot.exceptions;
+package com.project.backendSantander.exceptions;
 
 public class BusinessException extends RuntimeException{
     public BusinessException(String message){

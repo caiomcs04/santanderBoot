@@ -1,7 +1,6 @@
-package com.project.santanderBoot.repository;
+package com.project.backendSantander.repository;
 
-import com.project.santanderBoot.model.Stock;
-import com.project.santanderBoot.model.dto.StockDTO;
+import com.project.backendSantander.model.Stock;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

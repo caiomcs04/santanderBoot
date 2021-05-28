@@ -1,12 +1,12 @@
-package com.project.santanderBoot.service;
+package com.project.backendSantander.service;
 
-import com.project.santanderBoot.exceptions.BusinessException;
-import com.project.santanderBoot.exceptions.NotFoundException;
-import com.project.santanderBoot.mapper.StockMapper;
-import com.project.santanderBoot.model.Stock;
-import com.project.santanderBoot.model.dto.StockDTO;
-import com.project.santanderBoot.repository.StockRepository;
-import com.project.santanderBoot.util.MessageUtils;
+import com.project.backendSantander.exceptions.BusinessException;
+import com.project.backendSantander.exceptions.NotFoundException;
+import com.project.backendSantander.mapper.StockMapper;
+import com.project.backendSantander.model.Stock;
+import com.project.backendSantander.model.dto.StockDTO;
+import com.project.backendSantander.repository.StockRepository;
+import com.project.backendSantander.util.MessageUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,7 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
-import java.util.prefs.BackingStoreException;
 
 @Service
 public class StockService {

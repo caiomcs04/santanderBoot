@@ -1,4 +1,4 @@
-package com.project.santanderBoot.model.dto;
+package com.project.backendSantander.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

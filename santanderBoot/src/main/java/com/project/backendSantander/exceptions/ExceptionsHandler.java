@@ -1,6 +1,5 @@
-package com.project.santanderBoot.exceptions;
+package com.project.backendSantander.exceptions;
 
-import org.aspectj.weaver.ast.Not;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

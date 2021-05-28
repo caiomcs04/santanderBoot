@@ -1,4 +1,4 @@
-package com.project.santanderBoot.exceptions;
+package com.project.backendSantander.exceptions;
 
 public class ExceptionResponse {
     private  String message;

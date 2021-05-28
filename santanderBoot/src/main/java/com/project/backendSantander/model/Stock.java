@@ -1,4 +1,4 @@
-package com.project.santanderBoot.model;
+package com.project.backendSantander.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;

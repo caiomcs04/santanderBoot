@@ -1,6 +1,6 @@
-package com.project.santanderBoot.exceptions;
+package com.project.backendSantander.exceptions;
 
-import com.project.santanderBoot.util.MessageUtils;
+import com.project.backendSantander.util.MessageUtils;
 
 public class NotFoundException extends RuntimeException{
     public NotFoundException(){
