@@ -1,10 +1,11 @@
 .stock-card-container {
-  width: 342px;
-  height: 221px;
+  width: 21.375rem;
+  height: 13.8125rem;
+  margin: 1rem;
   background-color: var(--secondary-color);
   padding: 1rem;
   border-radius: 4px;
-  border-left: solid var(--positive-variation-color) 5px;
+  border-left: solid var(--positive-variation-color) 4px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,6 +28,7 @@
 }
 
 .stock-info-container p {
+  font-size: 14px;
   font-weight: 500;
   color: var(--secondary-text-color);
 }
@@ -45,9 +47,11 @@
 }
 
 .stock-value-container .variation {
+  font-size: 14px;
   background-color: var(--positive-variation-color);
   border-radius: 4px;
   color: white;
-  padding: 0.25rem;
+  padding: 0.25rem 0.4rem;
   align-self: flex-end;
+  margin-top: 0.25rem;
 }
