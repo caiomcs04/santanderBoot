@@ -1,17 +1,18 @@
-:root{
+:root {
   --background-color: #eaeaea;
   --primary-color: #EA1D25;
   --secondary-color: #ffffff;
-  --text-colr: #5C6369;
+  --text-color: #5C6369;
+  --secondary-text-color: rgba(92, 99, 105, 0.45);
   --positive-variation-color: #87D883;
   --negative-variation-color: #F55a5F;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-html, body{
+html, body {
   height: 100%;
   width: 100%;
   margin: 0;
