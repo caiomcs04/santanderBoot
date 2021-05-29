@@ -5,10 +5,14 @@
   background-color: var(--secondary-color);
   padding: 1rem;
   border-radius: 4px;
-  border-left: solid var(--positive-variation-color) 4px;
+  border-left: solid var(--positive-variation-color) 0.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.negative-variation-border{
+  border-left: solid var(--negative-variation-color) 0.25rem;
 }
 
 .stock-info-container {
@@ -54,4 +58,8 @@
   padding: 0.25rem 0.4rem;
   align-self: flex-end;
   margin-top: 0.25rem;
+}
+
+.negative-variation{
+  background-color: var(--negative-variation-color)!important;
 }

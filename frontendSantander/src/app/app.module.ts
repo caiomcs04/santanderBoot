@@ -6,6 +6,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { registerLocaleData } from '@angular/common';
+
+import localePt from "@angular/common/locales/pt"
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -17,7 +22,8 @@ import { AppComponent } from './app.component';
     DashboardModule,
     SharedModule,
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

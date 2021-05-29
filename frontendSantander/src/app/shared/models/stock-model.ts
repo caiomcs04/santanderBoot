@@ -3,7 +3,7 @@ class Stock {
   name?: string;
   price?: number;
   date?: string;
-  variation?: number
+  variation?: any
 }
 
 export default Stock;
