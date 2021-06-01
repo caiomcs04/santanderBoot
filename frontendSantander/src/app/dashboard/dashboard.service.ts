@@ -7,7 +7,7 @@ import Stock from "../shared/models/stock-model"
 })
 export class DashboardService {
 
-  readonly baseUrl = "https://backend-antander.herokuapp.com"
+  readonly baseUrl = "https://back-end-santander.herokuapp.com"
 
   constructor(private http: HttpClient) { }
 
