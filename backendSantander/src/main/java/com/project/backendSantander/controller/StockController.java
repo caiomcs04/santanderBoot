@@ -43,7 +43,7 @@ public class StockController {
         return ResponseEntity.ok(service.delete(id));
     }
 
-    @GetMapping(value = "/todaay")
+    @GetMapping(value = "/today")
     public ResponseEntity<List<StockDTO>> findByToday(){
      return ResponseEntity.ok(service.findByToday())  ;
     }
