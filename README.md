@@ -1,19 +1,19 @@
 
 # Santander Bootcamp Fullstack
 
->A sample of a basic form using material-ui
+>A fullstack sample to practice database consumption
 
 ## Prerequisites
 
 > - **Node** with version greater than or equal to 8.1 - [Node Donwload](https://nodejs.org/pt-br/download/)
 > - **NPM**  with version greater than or equal to 5.6 - [Npm Donwload](https://www.npmjs.com/package/download)
-> - **Angular** with version greater than or equal to 12.0.3 - [npm install -g @angular/cli]
+> - **Angular** with version greater than or equal to 12.0.3 - **npm install -g @angular/cli**
 
 ## Installation
 
 > Clone this project in your machine with the command:
 > ```
-> 	git clone [https://github.com/caiomcs04/react-form.git]
+> 	git clone [https://github.com/caiomcs04/santanderBoot.git]
 > ```
 >Access your terminal project folder:
 > ```
@@ -26,9 +26,9 @@
 
 ## Execution
 
->  When the installation is ready, start the application with the command::
+>  When the installation is ready, start the front-end application with the command::
 > ```
-> 	npm start
+> 	ng server --o
 > ```
 >The application will be available for viewing in your browser, if this does not happen automatically open the browser at the following address: _localhost: 3000_
 
