@@ -7,6 +7,7 @@
 
 > - **Node** with version greater than or equal to 8.1 - [Node Donwload](https://nodejs.org/pt-br/download/)
 > - **NPM**  with version greater than or equal to 5.6 - [Npm Donwload](https://www.npmjs.com/package/download)
+> - **Angular** with version greater than or equal to 12.0.3 - [npm install -g @angular/cli]
 
 ## Installation
 
