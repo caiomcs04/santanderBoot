@@ -6,16 +6,17 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 653503
+    url: postgres://gxmmtazdldfyzw:d5ca67f90177d9ebb354f7de0924a66e4aab23619b86b597cd5de59d54f8a8e1@ec2-54-243-92-68.compute-1.amazonaws.com:5432/d7q5c69r3dplpg
+
+    username: gxmmtazdldfyzw
+    password: d5ca67f90177d9ebb354f7de0924a66e4aab23619b86b597cd5de59d54f8a8e1
   jpa:
     show-sql: true
     database-plataform: org.hirbenate.dialect.PostgresSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibenate:
       ddl-auto: none
 
 application:
-  description: Projeto criado para o bootcamp DIO - Santander
-  version: 1.0
+  description: Projeto criado para o Bootcamp DIO - Santander
+  version: 2.0
