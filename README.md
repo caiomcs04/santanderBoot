@@ -39,8 +39,7 @@ In front-end, to provide a simple and pleasant visualization for the user and wi
 
 ## Functionalities
 
-> This project aims at the functionality of being: 
-> - A sample of a basic form using material-ui, focused on programming practice
+> This application aims to show data consumed from a database in a customer-friendly way
 
 ## Authors
 
