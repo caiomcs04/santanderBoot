@@ -1,7 +1,8 @@
 
 # Santander Bootcamp Fullstack
 
->A fullstack sample to practice database consumption
+>This is an open source fullstack basic application, focusing on programming practice and using the Heroku Database. To build the back-end, it was used [Spring Initializr](https://start.spring.io/), using a Marven project and Java as language.
+In front-end, to provide a simple and pleasant visualization for the user and with an exclusive focus on obtaining information from the Database, it was used Angular with Typescript.
 
 ## Prerequisites
 
@@ -16,6 +17,10 @@
 > 	git clone [https://github.com/caiomcs04/santanderBoot.git]
 > ```
 >Access your terminal project folder:
+> ```
+> 	cd [Your Project folder name]
+> ```
+> Than access the **frontendSantander** folder:
 > ```
 > 	cd [Your Project folder name]
 > ```
