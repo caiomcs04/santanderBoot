@@ -1,8 +1,8 @@
 
 # Santander Bootcamp Fullstack
 
->This is an open source fullstack basic application, focusing on programming practice and using the Heroku Database. To build the back-end, it was used [Spring Initializr](https://start.spring.io/), using a Marven project and Java as language.
-In front-end, to provide a simple and pleasant visualization for the user and with an exclusive focus on obtaining information from the Database, it was used Angular with Typescript.
+>This is a basic application opened source fullstack , focusing on programming practice and using feature as Heroku Database. Building back-end with [Spring Initializr](https://start.spring.io/), working with Marven project and Java language as well.
+About front-end, providing a simple and pleasant visualization for users and an exclusive focus on getting information from Database, Angular with Typescript were choosen.
 
 ## Prerequisites
 
