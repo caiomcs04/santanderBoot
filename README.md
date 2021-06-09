@@ -22,7 +22,7 @@ In front-end, to provide a simple and pleasant visualization for the user and wi
 > ```
 > Than access the **frontendSantander** folder:
 > ```
-> 	cd [Your Project folder name]
+> 	cd [frontendSantander]
 > ```
 > Already the application's folder in your terminal, type the following command to install the node-modules:
 > ```
@@ -35,7 +35,7 @@ In front-end, to provide a simple and pleasant visualization for the user and wi
 > ```
 > 	ng server --o
 > ```
->The application will be available for viewing in your browser, if this does not happen automatically open the browser at the following address: _localhost: 3000_
+>The application will be available for viewing in your browser, if this does not happen automatically open the browser at the following address: _localhost: 4200_
 
 ## Functionalities
 
