@@ -14,7 +14,7 @@ About front-end, providing a simple and pleasant visualization for users and an 
 
 > Clone this project in your machine with the command:
 > ```
-> 	git clone [https://github.com/caiomcs04/santanderBoot.git]
+> 	git clone https://github.com/caiomcs04/santanderBoot.git
 > ```
 >Access your terminal project folder:
 > ```
